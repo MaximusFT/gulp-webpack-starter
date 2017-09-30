@@ -1,0 +1,51 @@
+{
+   "root": {
+      "dev"  : "./dev",
+      "dist" : "./dist"
+   },
+   "html": {
+      "dev"   : "html",
+      "dist"  : "./",
+      "parts" : "templates"
+   },
+   "css": {
+      "dev"        : "sass",
+      "dist"       : "css",
+      "app"        : "sass/app",
+      "main"       : "sass/main",
+      "extensions" : "*.+(css|scss)",
+      "uncss"      : false
+   },
+   "js": {
+      "dev"        : "js",
+      "dist"       : "js",
+      "app"        : "js/app",
+      "vendor"     : "js/vendor",
+      "parts"      : "modules",
+      "extensions" : [".json", ".js"]
+   },
+   "img": {
+      "dev"        : "img/**/",
+      "dist"       : "images",
+      "extensions" : "*.+(jpg|jpeg|gif|png|svg)"
+   },
+   "svg": {
+      "dev"  : "img/svg",
+      "dist" : "images"
+   },
+   "fonts": {
+      "dev"        : "fonts",
+      "dist"       : "fonts",
+      "extensions" : "*.+(woff2|woff|eot|ttf|svg)"
+   },
+   "static": {
+      "dev"  : "static",
+      "dist" : "static"
+   },
+   "deploy": {
+      "hostname" : "",
+      "username" : "",
+      "path"     : "/",
+      "password" : ""
+   }
+}
